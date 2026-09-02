@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -S . -B build
+
+      - name: Build
+        run: cmake --build build -j "$(nproc)"
+
+      - name: Accumulator benchmark - correctness smoke test
+        # Deterministic vector-vs-scalar detection check, no timing claims.
+        run: |
+          set -e
+          for bin in fx64_bench fx128_bench fp_bench_a fp_bench_b; do
+            for eps in 0 1 2; do
+              echo "== $bin --verify $eps =="
+              build/benchmarks/accumulator/"$bin" --verify "$eps" | tee /tmp/out.txt
+              grep -q MATCH /tmp/out.txt
+            done
+          done
+
+      - name: Search benchmark - correctness/equivalence smoke test
+        # Deterministic cross-implementation and exact-reference check, no
+        # timing claims.
+        run: python3 benchmarks/search/tools/verify_equivalence.py build/benchmarks/search

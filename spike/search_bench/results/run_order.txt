@@ -1,0 +1,33 @@
+# Fixed run order, seed=20260902
+# pinned logical CPU = 6, SMT sibling = 7 (left idle)
+# position	build_variant	run_id
+0	FP-A	5
+1	FP-B	2
+2	FX64	1
+3	FX64	0
+4	FP-B	0
+5	FP-A	6
+6	FX64	7
+7	FP-A	1
+8	FX64	2
+9	FP-A	9
+10	FP-A	7
+11	FP-A	3
+12	FX64	8
+13	FP-A	4
+14	FP-B	3
+15	FP-B	6
+16	FX64	9
+17	FP-B	5
+18	FP-B	4
+19	FX64	4
+20	FX64	5
+21	FP-B	7
+22	FP-A	2
+23	FP-B	8
+24	FP-A	0
+25	FP-B	1
+26	FX64	3
+27	FP-B	9
+28	FP-A	8
+29	FX64	6

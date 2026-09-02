@@ -1,0 +1,45 @@
+0000000000001580 <spike::(anonymous namespace)::run_loop(spike::(anonymous namespace)::Ctx*, unsigned long, long long __vector(4), long long __vector(4), long long __vector(4), long long __vector(4))>:
+    1580:	vmovdqa (%rdi),%ymm8
+    1584:	vmovdqa 0x20(%rdi),%ymm7
+    1589:	vmovdqa %ymm0,%ymm4
+    158d:	xor    %eax,%eax
+    158f:	vmovdqa 0x40(%rdi),%ymm6
+    1594:	vmovdqa 0x60(%rdi),%ymm5
+    1599:	vmovdqa 0x80(%rdi),%ymm12
+    15a1:	vmovdqa 0xa0(%rdi),%ymm11
+    15a9:	vmovdqa 0xc0(%rdi),%ymm10
+    15b1:	vmovdqa 0xe0(%rdi),%ymm9
+    15b9:	nopl   0x0(%rax)
+    15c0:	vpaddq %ymm4,%ymm8,%ymm8
+    15c4:	vpaddq %ymm4,%ymm7,%ymm7
+    15c8:	add    $0x1,%rax
+    15cc:	vpaddq %ymm1,%ymm8,%ymm0
+    15d0:	vpaddq %ymm4,%ymm6,%ymm6
+    15d4:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    15d9:	vpaddq %ymm4,%ymm5,%ymm5
+    15dd:	vpand  %ymm3,%ymm0,%ymm0
+    15e1:	vpaddq %ymm12,%ymm0,%ymm12
+    15e6:	vpaddq %ymm1,%ymm7,%ymm0
+    15ea:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    15ef:	vpand  %ymm3,%ymm0,%ymm0
+    15f3:	vpaddq %ymm11,%ymm0,%ymm11
+    15f8:	vpaddq %ymm1,%ymm6,%ymm0
+    15fc:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    1601:	vpand  %ymm3,%ymm0,%ymm0
+    1605:	vpaddq %ymm10,%ymm0,%ymm10
+    160a:	vpaddq %ymm1,%ymm5,%ymm0
+    160e:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    1613:	vpand  %ymm3,%ymm0,%ymm0
+    1617:	vpaddq %ymm9,%ymm0,%ymm9
+    161c:	cmp    %rax,%rsi
+    161f:	jne    15c0 <spike::(anonymous namespace)::run_loop(spike::(anonymous namespace)::Ctx*, unsigned long, long long __vector(4), long long __vector(4), long long __vector(4), long long __vector(4))+0x40>
+    1621:	vmovdqa %ymm8,(%rdi)
+    1625:	vmovdqa %ymm7,0x20(%rdi)
+    162a:	vmovdqa %ymm6,0x40(%rdi)
+    162f:	vmovdqa %ymm5,0x60(%rdi)
+    1634:	vmovdqa %ymm12,0x80(%rdi)
+    163c:	vmovdqa %ymm11,0xa0(%rdi)
+    1644:	vmovdqa %ymm10,0xc0(%rdi)
+    164c:	vmovdqa %ymm9,0xe0(%rdi)
+    1654:	ret
+    1655:	data16 cs nopw 0x0(%rax,%rax,1)

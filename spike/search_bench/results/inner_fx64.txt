@@ -1,0 +1,5 @@
+    1c00:	cmp    %rdx,%rsi
+    1c03:	sbb    $0xffffffff,%r15d
+    1c07:	add    %rax,%rdx
+    1c0a:	sub    $0x1,%ecx
+    1c0d:	jne    1c00 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x100>

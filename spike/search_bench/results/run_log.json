@@ -1,0 +1,497 @@
+{
+ "seed": 20260902,
+ "pin_cpu": 6,
+ "sibling_cpu": 7,
+ "runs_per_variant": 10,
+ "longest_contiguous_same_variant": 3,
+ "answer_disagreements": [],
+ "answer": {
+  "best_z": "48",
+  "best_D": "0",
+  "best_D_bits": "0x0000000000000000",
+  "checksum": "2100000",
+  "candidates": "100002"
+ },
+ "runs": [
+  {
+   "position": 0,
+   "build_variant": "FP-A",
+   "run_id": 5,
+   "impl_name": "FP",
+   "time_ms": 194.205702,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 1,
+   "build_variant": "FP-B",
+   "run_id": 2,
+   "impl_name": "FP",
+   "time_ms": 197.103928,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 2,
+   "build_variant": "FX64",
+   "run_id": 1,
+   "impl_name": "FX64",
+   "time_ms": 27.441754,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 5,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 3,
+   "build_variant": "FX64",
+   "run_id": 0,
+   "impl_name": "FX64",
+   "time_ms": 26.027832,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 6,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 4,
+   "build_variant": "FP-B",
+   "run_id": 0,
+   "impl_name": "FP",
+   "time_ms": 193.837396,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 5,
+   "build_variant": "FP-A",
+   "run_id": 6,
+   "impl_name": "FP",
+   "time_ms": 194.451612,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 6,
+   "build_variant": "FX64",
+   "run_id": 7,
+   "impl_name": "FX64",
+   "time_ms": 24.91872,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 6,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 7,
+   "build_variant": "FP-A",
+   "run_id": 1,
+   "impl_name": "FP",
+   "time_ms": 193.89826,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 8,
+   "build_variant": "FX64",
+   "run_id": 2,
+   "impl_name": "FX64",
+   "time_ms": 27.185228,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 6,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 9,
+   "build_variant": "FP-A",
+   "run_id": 9,
+   "impl_name": "FP",
+   "time_ms": 193.905665,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 10,
+   "build_variant": "FP-A",
+   "run_id": 7,
+   "impl_name": "FP",
+   "time_ms": 195.583643,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 11,
+   "build_variant": "FP-A",
+   "run_id": 3,
+   "impl_name": "FP",
+   "time_ms": 194.788229,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 12,
+   "build_variant": "FX64",
+   "run_id": 8,
+   "impl_name": "FX64",
+   "time_ms": 25.189035,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 5,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 13,
+   "build_variant": "FP-A",
+   "run_id": 4,
+   "impl_name": "FP",
+   "time_ms": 195.027491,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 14,
+   "build_variant": "FP-B",
+   "run_id": 3,
+   "impl_name": "FP",
+   "time_ms": 195.896431,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 15,
+   "build_variant": "FP-B",
+   "run_id": 6,
+   "impl_name": "FP",
+   "time_ms": 194.249877,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 16,
+   "build_variant": "FX64",
+   "run_id": 9,
+   "impl_name": "FX64",
+   "time_ms": 25.881435,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 5,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 17,
+   "build_variant": "FP-B",
+   "run_id": 5,
+   "impl_name": "FP",
+   "time_ms": 201.955268,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 18,
+   "build_variant": "FP-B",
+   "run_id": 4,
+   "impl_name": "FP",
+   "time_ms": 195.877,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 19,
+   "build_variant": "FX64",
+   "run_id": 4,
+   "impl_name": "FX64",
+   "time_ms": 25.082566,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 5,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 20,
+   "build_variant": "FX64",
+   "run_id": 5,
+   "impl_name": "FX64",
+   "time_ms": 26.7175,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 6,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 21,
+   "build_variant": "FP-B",
+   "run_id": 7,
+   "impl_name": "FP",
+   "time_ms": 195.558943,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 22,
+   "build_variant": "FP-A",
+   "run_id": 2,
+   "impl_name": "FP",
+   "time_ms": 194.107441,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 23,
+   "build_variant": "FP-B",
+   "run_id": 8,
+   "impl_name": "FP",
+   "time_ms": 194.045275,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 24,
+   "build_variant": "FP-A",
+   "run_id": 0,
+   "impl_name": "FP",
+   "time_ms": 195.072371,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 25,
+   "build_variant": "FP-B",
+   "run_id": 1,
+   "impl_name": "FP",
+   "time_ms": 193.846585,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 26,
+   "build_variant": "FX64",
+   "run_id": 3,
+   "impl_name": "FX64",
+   "time_ms": 25.800925,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 5,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 27,
+   "build_variant": "FP-B",
+   "run_id": 9,
+   "impl_name": "FP",
+   "time_ms": 194.193031,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 39,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 28,
+   "build_variant": "FP-A",
+   "run_id": 8,
+   "impl_name": "FP",
+   "time_ms": 196.310749,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 40,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  },
+  {
+   "position": 29,
+   "build_variant": "FX64",
+   "run_id": 6,
+   "impl_name": "FX64",
+   "time_ms": 25.408383,
+   "sibling_busy_jiffies": 0,
+   "sibling_total_jiffies": 5,
+   "provenance": {
+    "best_z": "48",
+    "best_D": "0",
+    "best_D_bits": "0x0000000000000000",
+    "checksum": "2100000",
+    "candidates": "100002"
+   }
+  }
+ ]
+}

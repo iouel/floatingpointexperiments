@@ -1,0 +1,100 @@
+0000000000001b00 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)>:
+    1b00:	push   %r15
+    1b02:	xor    %ecx,%ecx
+    1b04:	push   %r14
+    1b06:	xor    %r14d,%r14d
+    1b09:	push   %r13
+    1b0b:	mov    $0x1,%r13d
+    1b11:	push   %r12
+    1b13:	xor    %r12d,%r12d
+    1b16:	push   %rbp
+    1b17:	xor    %ebp,%ebp
+    1b19:	push   %rbx
+    1b1a:	mov    $0x1,%ebx
+    1b1f:	sub    $0x38,%rsp
+    1b23:	vmovsd 0x17fd(%rip),%xmm1        # 3328 <_IO_stdin_used+0x328>
+    1b2b:	mov    %rdi,0x18(%rsp)
+    1b30:	movl   $0x0,0x14(%rsp)
+    1b38:	nopl   0x0(%rax,%rax,1)
+    1b40:	mov    %ebx,%edx
+    1b42:	mov    $0x186a3,%eax
+    1b47:	shr    %cl,%edx
+    1b49:	jmp    1b73 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x73>
+    1b4b:	cs nopw 0x0(%rax,%rax,1)
+    1b55:	data16 cs nopw 0x0(%rax,%rax,1)
+    1b60:	sub    %eax,%edx
+    1b62:	mov    %edx,%r15d
+    1b65:	mov    %eax,%edx
+    1b67:	xor    %ecx,%ecx
+    1b69:	mov    %r15d,%eax
+    1b6c:	tzcnt  %r15d,%ecx
+    1b71:	shr    %cl,%eax
+    1b73:	cmp    %edx,%eax
+    1b75:	jb     1b60 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x60>
+    1b77:	sub    %edx,%eax
+    1b79:	mov    %eax,%r15d
+    1b7c:	jne    1b67 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x67>
+    1b7e:	cmp    $0x1,%edx
+    1b81:	je     1ba8 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0xa8>
+    1b83:	add    $0x1,%r13
+    1b87:	mov    %r12,%rax
+    1b8a:	mov    %r13,%rdx
+    1b8d:	xor    $0x186a3,%rdx
+    1b94:	or     %rdx,%rax
+    1b97:	je     1c57 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x157>
+    1b9d:	add    $0x1,%ebx
+    1ba0:	xor    %ecx,%ecx
+    1ba2:	tzcnt  %ebx,%ecx
+    1ba6:	jmp    1b40 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x40>
+    1ba8:	xor    %ecx,%ecx
+    1baa:	mov    %r12,%rdi
+    1bad:	mov    %r13,%rsi
+    1bb0:	mov    $0x186a3,%edx
+    1bb5:	lea    0x20(%rsp),%r8
+    1bba:	addl   $0x1,0x14(%rsp)
+    1bbf:	vmovsd %xmm1,0x8(%rsp)
+    1bc5:	call   1170 <__udivmodti4@plt>
+    1bca:	mov    0x20(%rsp),%rdi
+    1bcf:	vmovsd 0x8(%rsp),%xmm1
+    1bd5:	mov    $0x3e8,%ecx
+    1bda:	movabs $0x5604189374bc6a7,%rsi
+    1be4:	lea    (%rdi,%rdi,1),%rdx
+    1be8:	cmp    $0x186a4,%rdx
+    1bef:	movabs $0x2b020c49ba5e354,%rdx
+    1bf9:	sbb    $0xffffffffffffffff,%rax
+    1bfd:	add    %rax,%rdx
+    1c00:	cmp    %rdx,%rsi
+    1c03:	sbb    $0xffffffff,%r15d
+    1c07:	add    %rax,%rdx
+    1c0a:	sub    $0x1,%ecx
+    1c0d:	jne    1c00 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x100>
+    1c0f:	vxorpd %xmm5,%xmm5,%xmm5
+    1c13:	vxorpd %xmm2,%xmm2,%xmm2
+    1c17:	add    %r15,%rbp
+    1c1a:	vcvtsi2sd %r15,%xmm5,%xmm0
+    1c1f:	vdivsd 0x1709(%rip),%xmm0,%xmm0        # 3330 <_IO_stdin_used+0x330>
+    1c27:	vsubsd 0x1709(%rip),%xmm0,%xmm0        # 3338 <_IO_stdin_used+0x338>
+    1c2f:	vxorpd 0x1719(%rip),%xmm0,%xmm4        # 3350 <_IO_stdin_used+0x350>
+    1c37:	vmovapd %xmm0,%xmm3
+    1c3b:	vcmpltsd %xmm2,%xmm0,%xmm0
+    1c40:	vblendvpd %xmm0,%xmm4,%xmm3,%xmm0
+    1c46:	vcomisd %xmm0,%xmm1
+    1c4a:	vminsd %xmm1,%xmm0,%xmm1
+    1c4e:	cmova  %ebx,%r14d
+    1c52:	jmp    1b83 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0x83>
+    1c57:	mov    0x18(%rsp),%rax
+    1c5c:	mov    0x14(%rsp),%edi
+    1c60:	mov    %r14d,(%rax)
+    1c63:	mov    %rbp,0x10(%rax)
+    1c67:	mov    %edi,0x18(%rax)
+    1c6a:	movq   $0x0,0x20(%rax)
+    1c72:	vmovsd %xmm1,0x8(%rax)
+    1c77:	add    $0x38,%rsp
+    1c7b:	pop    %rbx
+    1c7c:	pop    %rbp
+    1c7d:	pop    %r12
+    1c7f:	pop    %r13
+    1c81:	pop    %r14
+    1c83:	pop    %r15
+    1c85:	ret
+    1c86:	cs nopw 0x0(%rax,%rax,1)

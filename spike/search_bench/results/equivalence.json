@@ -1,0 +1,111 @@
+{
+ "constants": {
+  "FP-A": {
+   "keys_checked": 10,
+   "mismatched": {},
+   "missing": []
+  },
+  "FP-B": {
+   "keys_checked": 10,
+   "mismatched": {},
+   "missing": []
+  },
+  "FX64": {
+   "keys_checked": 17,
+   "mismatched": {},
+   "missing": []
+  }
+ },
+ "dumps": {
+  "FP-A": {
+   "rows": 100002,
+   "sum_hits": 2100000,
+   "min_hits": 10,
+   "max_hits": 1000
+  },
+  "FP-B": {
+   "rows": 100002,
+   "sum_hits": 2100000,
+   "min_hits": 10,
+   "max_hits": 1000
+  },
+  "FX64": {
+   "rows": 100002,
+   "sum_hits": 2100000,
+   "min_hits": 10,
+   "max_hits": 1000
+  },
+  "REF": {
+   "rows": 100002,
+   "sum_hits": 2100000,
+   "min_hits": 10,
+   "max_hits": 1000
+  }
+ },
+ "diffs": {
+  "FP-A_vs_REF": {
+   "compared": 100002,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "examples": []
+  },
+  "FX64_vs_REF": {
+   "compared": 100002,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "examples": []
+  },
+  "FP-B_vs_REF": {
+   "compared": 100002,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "examples": []
+  },
+  "FP-A_vs_FX64": {
+   "compared": 100002,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "examples": []
+  },
+  "FP-A_vs_FP-B": {
+   "compared": 100002,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "examples": []
+  }
+ },
+ "provenance": {
+  "FP-A": {
+   "best_z": "48",
+   "best_D": "0",
+   "best_D_bits": "0x0000000000000000",
+   "checksum": "2100000",
+   "candidates": "100002"
+  },
+  "FP-B": {
+   "best_z": "48",
+   "best_D": "0",
+   "best_D_bits": "0x0000000000000000",
+   "checksum": "2100000",
+   "candidates": "100002"
+  },
+  "FX64": {
+   "best_z": "48",
+   "best_D": "0",
+   "best_D_bits": "0x0000000000000000",
+   "checksum": "2100000",
+   "candidates": "100002"
+  },
+  "REF": {
+   "best_z": "48",
+   "best_D": "0",
+   "best_D_bits": "0x0000000000000000",
+   "checksum": "2100000",
+   "candidates": "100002"
+  }
+ },
+ "provenance_mismatches": {},
+ "result": "PASS",
+ "failures": [],
+ "total_candidates": 100002
+}

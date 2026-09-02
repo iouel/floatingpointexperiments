@@ -1,0 +1,194 @@
+{
+ "per_eps": {
+  "1e-6": {
+   "fp_a": {
+    "n": 20,
+    "median": 0.732513875,
+    "minimum": 0.715765625,
+    "stddev": 0.016649919884868622
+   },
+   "fp_b": {
+    "n": 20,
+    "median": 0.718660275,
+    "minimum": 0.712669338,
+    "stddev": 0.015298488085031505
+   },
+   "fp_pooled": {
+    "n": 40,
+    "median": 0.7272511685,
+    "minimum": 0.712669338,
+    "stddev": 0.016045998332118717
+   },
+   "fx64": {
+    "n": 20,
+    "median": 0.2628384,
+    "minimum": 0.249946187,
+    "stddev": 0.006728205019446899
+   },
+   "fx128": {
+    "n": 20,
+    "median": 0.8592840785,
+    "minimum": 0.845986875,
+    "stddev": 0.014884221151929201
+   },
+   "noise_floor_pct": 1.927698035069494,
+   "cv3_pct": 6.619170526139367,
+   "threshold_pct": 6.619170526139367,
+   "fx64_margin_pct": 63.85864865062778,
+   "fx128_margin_pct": -18.155063301214888,
+   "fx128_vs_fx64_margin_pct": -226.9248627673886,
+   "detections": {
+    "FP-A": [
+     288
+    ],
+    "FP-B": [
+     288
+    ],
+    "FX64": [
+     288
+    ],
+    "FX128": [
+     288
+    ]
+   }
+  },
+  "1e-9": {
+   "fp_a": {
+    "n": 20,
+    "median": 0.7160419565,
+    "minimum": 0.71187585,
+    "stddev": 0.0044861316105807006
+   },
+   "fp_b": {
+    "n": 20,
+    "median": 0.716123775,
+    "minimum": 0.713152888,
+    "stddev": 0.001077645836116177
+   },
+   "fp_pooled": {
+    "n": 40,
+    "median": 0.716115225,
+    "minimum": 0.71187585,
+    "stddev": 0.003238407456728252
+   },
+   "fx64": {
+    "n": 20,
+    "median": 0.2576571,
+    "minimum": 0.251693,
+    "stddev": 0.003974311397296717
+   },
+   "fx128": {
+    "n": 20,
+    "median": 0.8516162190000001,
+    "minimum": 0.843367725,
+    "stddev": 0.0068950749870600615
+   },
+   "noise_floor_pct": 0.0114264952294031,
+   "cv3_pct": 1.3566563076751728,
+   "threshold_pct": 1.3566563076751728,
+   "fx64_margin_pct": 64.02016169953656,
+   "fx128_margin_pct": -18.92167479053389,
+   "fx128_vs_fx64_margin_pct": -230.52309406571763,
+   "detections": {
+    "FP-A": [
+     0
+    ],
+    "FP-B": [
+     0
+    ],
+    "FX64": [
+     0
+    ],
+    "FX128": [
+     0
+    ]
+   }
+  },
+  "1e-12": {
+   "fp_a": {
+    "n": 20,
+    "median": 0.716121163,
+    "minimum": 0.711282813,
+    "stddev": 0.0166596976649091
+   },
+   "fp_b": {
+    "n": 20,
+    "median": 0.715773225,
+    "minimum": 0.71086885,
+    "stddev": 0.002267994152440123
+   },
+   "fp_pooled": {
+    "n": 40,
+    "median": 0.7159458875,
+    "minimum": 0.71086885,
+    "stddev": 0.012206627880155314
+   },
+   "fx64": {
+    "n": 20,
+    "median": 0.2556717125,
+    "minimum": 0.2492173,
+    "stddev": 0.0062483612165286665
+   },
+   "fx128": {
+    "n": 20,
+    "median": 0.8472233,
+    "minimum": 0.842818863,
+    "stddev": 0.014757252887780159
+   },
+   "noise_floor_pct": 0.04861008876100278,
+   "cv3_pct": 5.114895452272005,
+   "threshold_pct": 5.114895452272005,
+   "fx64_margin_pct": 64.28896136371759,
+   "fx128_margin_pct": -18.33621992835318,
+   "fx128_vs_fx64_margin_pct": -231.37154349838374,
+   "detections": {
+    "FP-A": [
+     0
+    ],
+    "FP-B": [
+     0
+    ],
+    "FX64": [
+     0
+    ],
+    "FX128": [
+     0
+    ]
+   }
+  }
+ },
+ "decision_fx64_margin_pct": 64.02016169953656,
+ "decision_fx128_margin_pct": -18.33621992835318,
+ "decision_fx128_vs_fx64_margin_pct": -230.52309406571763,
+ "decision_threshold_pct": 5.114895452272005,
+ "decision_noise_floor_pct": 0.04861008876100278,
+ "verdicts": {
+  "FP_vs_FX64": {
+   "margin_pct": 64.02016169953656,
+   "abs_rule": "margin present",
+   "signed_rule": "margin present",
+   "direction": "FX64 faster"
+  },
+  "FP_vs_FX128": {
+   "margin_pct": -18.33621992835318,
+   "abs_rule": "margin present",
+   "signed_rule": "no margin",
+   "direction": "FP faster"
+  },
+  "FX64_vs_FX128": {
+   "margin_pct": -230.52309406571763,
+   "abs_rule": "margin present",
+   "signed_rule": "no margin",
+   "direction": "FX64 faster"
+  }
+ },
+ "primary_verdict": "no margin",
+ "primary_gate_fx128_faster_than_fp": false,
+ "sibling": {
+  "runs": 240,
+  "zero_busy_runs": 240,
+  "max_busy_jiffies": 0,
+  "total_busy_jiffies": 0,
+  "retries": 0
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "1e-6": {
+  "fp_per_lane": 18,
+  "fx64_per_lane": 18,
+  "fx128_per_lane": 18,
+  "fp_total_16": 288,
+  "fx64_total_16": 288,
+  "fx128_total_16": 288,
+  "first_hit": [
+   52036,
+   300123,
+   1971203,
+   2219290,
+   2467377
+  ],
+  "last_hit": [
+   7546146,
+   7794233,
+   8042320,
+   8290407,
+   9961487
+  ],
+  "pairwise": {
+   "FP_vs_FX64": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   },
+   "FP_vs_FX128": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   },
+   "FX128_vs_FX64": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   }
+  }
+ },
+ "1e-9": {
+  "fp_per_lane": 0,
+  "fx64_per_lane": 0,
+  "fx128_per_lane": 0,
+  "fp_total_16": 0,
+  "fx64_total_16": 0,
+  "fx128_total_16": 0,
+  "first_hit": [],
+  "last_hit": [],
+  "pairwise": {
+   "FP_vs_FX64": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   },
+   "FP_vs_FX128": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   },
+   "FX128_vs_FX64": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   }
+  }
+ },
+ "1e-12": {
+  "fp_per_lane": 0,
+  "fx64_per_lane": 0,
+  "fx128_per_lane": 0,
+  "fp_total_16": 0,
+  "fx64_total_16": 0,
+  "fx128_total_16": 0,
+  "first_hit": [],
+  "last_hit": [],
+  "pairwise": {
+   "FP_vs_FX64": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   },
+   "FP_vs_FX128": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   },
+   "FX128_vs_FX64": {
+    "n_only_first": 0,
+    "n_only_second": 0,
+    "only_first_iterations": [],
+    "only_second_iterations": []
+   }
+  }
+ }
+}

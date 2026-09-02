@@ -1,0 +1,13 @@
+    1b00:	vaddsd %xmm3,%xmm0,%xmm0
+    1b04:	vcmpge_oqsd %xmm2,%xmm0,%xmm1
+    1b09:	vandpd %xmm2,%xmm1,%xmm1
+    1b0d:	vsubsd %xmm1,%xmm0,%xmm0
+    1b11:	vcomisd %xmm0,%xmm4
+    1b15:	seta   %al
+    1b18:	vcomisd 0x1808(%rip),%xmm0        # 3328 <_IO_stdin_used+0x328>
+    1b20:	setae  %cl
+    1b23:	or     %ecx,%eax
+    1b25:	movzbl %al,%eax
+    1b28:	add    %eax,%esi
+    1b2a:	sub    $0x1,%edx
+    1b2d:	jne    1b00 <search::SearchResult search::(anonymous namespace)::run_search<false>(unsigned int*)+0xe0>

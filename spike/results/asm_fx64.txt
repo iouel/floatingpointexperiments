@@ -1,0 +1,45 @@
+0000000000001620 <_ZN5spike12_GLOBAL__N_1L8run_loopEPNS0_3CtxEmDv4_xS3_S3_S3_>:
+    1620:	vmovdqa (%rdi),%ymm8
+    1624:	vmovdqa 0x20(%rdi),%ymm7
+    1629:	vmovdqa %ymm0,%ymm4
+    162d:	xor    %eax,%eax
+    162f:	vmovdqa 0x40(%rdi),%ymm6
+    1634:	vmovdqa 0x60(%rdi),%ymm5
+    1639:	vmovdqa 0x80(%rdi),%ymm12
+    1641:	vmovdqa 0xa0(%rdi),%ymm11
+    1649:	vmovdqa 0xc0(%rdi),%ymm10
+    1651:	vmovdqa 0xe0(%rdi),%ymm9
+    1659:	nopl   0x0(%rax)
+    1660:	vpaddq %ymm4,%ymm8,%ymm8
+    1664:	vpaddq %ymm4,%ymm7,%ymm7
+    1668:	add    $0x1,%rax
+    166c:	vpaddq %ymm1,%ymm8,%ymm0
+    1670:	vpaddq %ymm4,%ymm6,%ymm6
+    1674:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    1679:	vpaddq %ymm4,%ymm5,%ymm5
+    167d:	vpand  %ymm3,%ymm0,%ymm0
+    1681:	vpaddq %ymm12,%ymm0,%ymm12
+    1686:	vpaddq %ymm1,%ymm7,%ymm0
+    168a:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    168f:	vpand  %ymm3,%ymm0,%ymm0
+    1693:	vpaddq %ymm11,%ymm0,%ymm11
+    1698:	vpaddq %ymm1,%ymm6,%ymm0
+    169c:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    16a1:	vpand  %ymm3,%ymm0,%ymm0
+    16a5:	vpaddq %ymm10,%ymm0,%ymm10
+    16aa:	vpaddq %ymm1,%ymm5,%ymm0
+    16ae:	vpcmpgtq %ymm0,%ymm2,%ymm0
+    16b3:	vpand  %ymm3,%ymm0,%ymm0
+    16b7:	vpaddq %ymm9,%ymm0,%ymm9
+    16bc:	cmp    %rax,%rsi
+    16bf:	jne    1660 <_ZN5spike12_GLOBAL__N_1L8run_loopEPNS0_3CtxEmDv4_xS3_S3_S3_+0x40>
+    16c1:	vmovdqa %ymm8,(%rdi)
+    16c5:	vmovdqa %ymm7,0x20(%rdi)
+    16ca:	vmovdqa %ymm6,0x40(%rdi)
+    16cf:	vmovdqa %ymm5,0x60(%rdi)
+    16d4:	vmovdqa %ymm12,0x80(%rdi)
+    16dc:	vmovdqa %ymm11,0xa0(%rdi)
+    16e4:	vmovdqa %ymm10,0xc0(%rdi)
+    16ec:	vmovdqa %ymm9,0xe0(%rdi)
+    16f4:	ret
+    16f5:	data16 cs nopw 0x0(%rax,%rax,1)

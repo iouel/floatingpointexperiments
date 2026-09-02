@@ -1,0 +1,17 @@
+N = 100003
+T = 1000
+eps_P = 21
+eps_Q = 2000
+num_candidates = 100002
+eps_double_bits = 0x3f85810624dd2f1b
+one_minus_eps_double_bits = 0x3fefa9fbe76c8b44
+two_eps_double_bits = 0x3f95810624dd2f1b
+W_eps = 0x02b020c49ba5e354
+two_W_eps = 0x05604189374bc6a8
+alpha_fixed[1] = 0x0000a7c4626f2591
+alpha_fixed[2] = 0x00014f88c4de4b22
+alpha_fixed[3] = 0x0001f74d274d70b3
+alpha_fixed[17] = 0x000b240a89617ea3
+alpha_fixed[1000] = 0x028f5720822abedf
+alpha_fixed[50000] = 0x7fff04596c5947a6
+alpha_fixed[100002] = 0xffff583b9d90da6f

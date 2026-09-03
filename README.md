@@ -1,4 +1,4 @@
-# representation
+## Experiments with FP
 
 Micro-benchmarking spikes investigating whether a fixed-point modular
 accumulator is cheaper than a wrapped floating-point one on modern x86
